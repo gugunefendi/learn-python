@@ -36,3 +36,9 @@ print(f"2 + 3 = {2 + 3}")
 
 print(f"{name} is Amazing")
 print(f"2 + 3 = {2 + 3}")
+
+""""
+Remove white space in left and right side using strip()
+"""
+name = name.strip()
+print("Remove white space", name)
