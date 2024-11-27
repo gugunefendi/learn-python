@@ -24,3 +24,15 @@ But is better if you add backslash in string start and string end, example: 'Hel
 
 # Add backslash in string start and string end
 print(name, 'is my \"brother\"')
+
+"""
+F-string
+Variable or expression include in string put in bracker {}
+Example:
+name = "Gunawan"
+print(f"{name} is Amazing")
+print(f"2 + 3 = {2 + 3}")
+"""
+
+print(f"{name} is Amazing")
+print(f"2 + 3 = {2 + 3}")
