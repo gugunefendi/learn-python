@@ -15,3 +15,23 @@ print(sum) # this will print string
 repairSum = int(firstNumber) + int(secondNumber)
 
 print(repairSum)
+
+# Float
+firstFloat = input("Input first float: ")
+secondFloat = input("Input second float: ")
+
+sumFloat = float(firstFloat) + float(secondFloat)
+
+print(sumFloat)
+
+# rounded float
+roundedFloat = round(sumFloat)
+
+print(roundedFloat)
+
+# get 2 number after comma
+addComma = round(sumFloat, 2)
+addCommaSecondWay = f"{sumFloat:.2f}"
+
+print(addComma)
+print(addCommaSecondWay)
