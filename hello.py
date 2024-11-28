@@ -39,3 +39,26 @@ print(f"2 + 3 = {2 + 3}")
 # */
 name = name.strip()
 print("Remove white space", name)
+
+
+# */
+# ----------- STRING -------------
+# Capitalize User's name
+# */
+name = name.capitalize() # for first leeter to capital
+print(f"Hello {name}")
+
+name = name.title() # for first leeter in every words to capital
+print(f"Hello {name}")
+
+#
+# Split word
+#
+name = name.split() # output ['Gunawan', 'Efendi']
+print(name)
+
+#
+# Get value in split
+#
+# first, last = name.split(" ")
+# print(f"First name:  {first}, Last name: , {last}")
